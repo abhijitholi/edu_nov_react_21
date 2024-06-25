@@ -11,7 +11,7 @@ import ViewBooking from './component/booking/viewBookingApi';
 const Routing = () => {
     return(
         <BrowserRouter>
-            <Header/>
+            <Header/> 
             <Route exact path="/" component={Home}/>
             <Route path="/list/:id" component={Listing}/>
             <Route path="/details/:id" component={Details}/>
